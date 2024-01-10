@@ -1,0 +1,20 @@
+.bounding-box {
+    position: absolute;
+    box-shadow:  0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: center;
+   
+   
+}
+
+.bounding-box:hover{
+    opacity: 0.1;
+    transition: 0.1s ease-in;
+}
+
+.bounding-box.dim{
+    opacity:0;
+}
+
